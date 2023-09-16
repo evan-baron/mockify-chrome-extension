@@ -1,0 +1,23 @@
+{
+    "name": "Mockify",
+    "version": "1.0.0",
+    "description": "Mockify your text",
+    "manifest_version": 3,
+    "author": "Evan Baron",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Mockify",
+        "default_icon": "Mockify.png"
+    },
+    "content_scripts": [
+        {
+          "js": [
+            "script.js"
+          ],
+          "matches": [
+            "https://developer.chrome.com/docs/extensions/*",
+            "https://developer.chrome.com/docs/webstore/*"
+          ]
+        }
+      ]
+}

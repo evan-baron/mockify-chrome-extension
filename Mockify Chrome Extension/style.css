@@ -1,0 +1,49 @@
+body {
+    background-color: #242424;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.container {
+    background-color: #4b4b4b;
+    color: white;
+    font-size: 1.25rem;
+    padding: .25rem;
+    padding-left: .5rem;
+    display: flex;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black,
+                inset 3px 3px 5px magenta,
+                inset -3px -3px 5px rgb(130, 0, 255);
+}
+
+span {
+    font-family: 'Permanent Marker', cursive !important;
+    font-size: 1.5rem !important;
+    font-weight: bolder !important;
+    background: -webkit-linear-gradient(315deg, magenta, rgb(130, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+textarea {
+    align-self: center;
+    margin-top: .25rem;
+    width: 380px;
+    height: 40px;
+}
+
+.button {
+    width: 140px;
+}
+
+.button-cont {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: .25rem;
+}
+
+.mockIn {
+    text-decoration: none !important;
+}
