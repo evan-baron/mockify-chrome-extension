@@ -32,9 +32,6 @@ function mockifyNoNums(text) {
 }
 
 function mockify(text) {
-    //automatically focus on input
-    document.getElementById('moockIn').focus();
-    
     //make everything lowercase
     text = document.getElementById('mockIn').value.toLowerCase();
 
